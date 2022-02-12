@@ -1,0 +1,15 @@
+name: "Roblox Game"
+description: "Report an issue with the Roblox Game."
+assignees: "plainenglishh,EletricalFuse"
+labels: "bug,needs-triage"
+body:
+  - type: markdown
+  value: "Hello."
+  - type: input
+  id: prevalence
+  attributes:
+    label: Bug prevalence
+    description: "How often do you see this in-game?"
+    placeholder: "Every time I join"
+  validations:
+    required: true
