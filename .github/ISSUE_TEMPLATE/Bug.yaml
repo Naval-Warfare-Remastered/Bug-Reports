@@ -3,11 +3,18 @@ description: "Report an issue with the Roblox Game."
 assignees: "plainenglishh,EletricalFuse"
 labels: "bug,needs-triage"
 body:
+- type: markdown
+  id: description
+  attributes:
+    label: Describe the bug
+    description: "Please be clear and concise."
+  validations:
+    required: true
 - type: input
   id: prevalence
   attributes:
-    label: Bug prevalence
-    description: "How often do you or others encounter this bug?"
-    placeholder: "Whenever I visit the user account page (1-2 times a week)"
+    label: Frequency
+    description: "How often do you see this bug?"
+    placeholder: "Every time I join"
   validations:
     required: true
