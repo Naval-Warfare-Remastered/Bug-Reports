@@ -1,0 +1,28 @@
+name: "Roblox Suggestion"
+description: "Suggest a change to the game."
+title: "[Suggestion]: "
+assignees: "plainenglishh,EletricalFuse"
+labels: "Enhancement,Needs Triage"
+body:
+- type: textarea
+  id: description
+  attributes:
+    label: Describe your suggestion
+    description: "Please be clear and concise."
+  validations:
+    required: true
+- type: input
+  id: usecase
+  attributes:
+    label: Use Cases and Rationale
+    description: "Why do you think this would be beneficial?"
+  validations:
+    required: true
+- type: input
+  id: contact
+  attributes:
+    label: Contact
+    description: "How can we contact you if we need more details?"
+    placeholder: "Discord: Example#0000"
+  validations:
+    required: true
