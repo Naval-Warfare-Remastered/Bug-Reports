@@ -1,8 +1,8 @@
-name: "Roblox Game"
+name: "Roblox Bug"
 description: "Report an issue with the Roblox Game."
 title: "[Bug]: "
 assignees: "plainenglishh,EletricalFuse"
-labels: "bug,needs-triage"
+labels: "Bug,Needs Triage"
 body:
 - type: textarea
   id: description
