@@ -3,7 +3,7 @@ description: "Report an issue with the Roblox Game."
 assignees: "plainenglishh,EletricalFuse"
 labels: "bug,needs-triage"
 body:
-- type: markdown
+- type: textarea
   id: description
   attributes:
     label: Describe the bug
