@@ -18,3 +18,22 @@ body:
     placeholder: "Every time I join"
   validations:
     required: true
+- type: input
+  id: contact
+  attributes:
+    label: Contact
+    description: "How can we contact you if we need more details?"
+    placeholder: "Discord: Example#0000"
+  validations:
+    required: true
+- type: dropdown
+  id: location
+  attributes:
+    label: "Where did this occur?"
+    options:
+      - Stable Server (Normal)
+      - Test Server
+      - Development Server
+      - Launcher
+  validations:
+    required: true
