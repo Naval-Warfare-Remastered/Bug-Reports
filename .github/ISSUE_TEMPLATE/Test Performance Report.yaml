@@ -7,7 +7,7 @@ body:
 - type: textarea
   id: description
   attributes:
-    label: Attach a screenshot of the debug stats
+    label: Attach a screenshot of the debug stats and describe your computers specs here.
     description: "You can find the debug stats in the lower right corner of your screen"
   validations:
     required: true
