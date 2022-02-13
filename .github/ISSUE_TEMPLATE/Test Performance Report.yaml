@@ -16,8 +16,8 @@ body:
   attributes:
     label: "Did you experience poor performance in game?"
     options:
-      - Yes
-      - No clue
-      - No
+      - "Yes"
+      - "No clue"
+      - "No"
   validations:
     required: true
